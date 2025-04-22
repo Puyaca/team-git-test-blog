@@ -25,8 +25,6 @@ body {
   padding: 10px 0;
 }
 
-
-
 #acerca-de {
   padding: 50px 0;
   background-color: #f9f9f9; /* Un fondo gris claro */
@@ -69,6 +67,33 @@ body {
   transition: background-color 0.3s ease;
 }
 
+.boton:hover {
+  background-color: #0056b3;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+.botones {
+  display: flex;
+  gap: 10px;
+}
+.boton {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .boton:hover {
   background-color: #0056b3;
 }
