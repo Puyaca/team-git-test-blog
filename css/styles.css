@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.presentation {
+  width: 100%;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.intro {
+  padding: 10px 0;
+}
